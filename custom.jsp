@@ -10,7 +10,7 @@ pageEncoding="UTF-8"%>
 <%
 String name = request.getParameter("name");
 String city = request.getParameter("city");
-if(name.equals("siva") && city.equals("tup"))
+if(name.equals("siva") && city.equals("tel aviv"))
 {
 response.sendRedirect("welcome.html");
 }
